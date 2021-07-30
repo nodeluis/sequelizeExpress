@@ -10,15 +10,15 @@ const CargosEx = db.define('cargosex',{
   },
   keycargoex: {
     type: Sequelize.INTEGER,
-    allowNull: false,
+    allowNull: true,
   },
   nombrecargo: {
     type: Sequelize.STRING,
-    allowNull: false,
+    allowNull: true,
   },
   designcolor: {
     type: Sequelize.STRING,
-    allowNull: false,
+    allowNull: true,
   },
 });
 
